@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# AWS CDK context and assets
+cdk.out/
+cdk.context.json
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Test cache
+.pytest_cache/
+
+# Pipenv files (if used)
+Pipfile.lock
+
+# Environment variable files
+.env
+.env.* 
+
+# Docker files (if you have Docker builds)
+docker-compose.override.yml
+
+# Local AWS credentials (be careful!)
+.aws/
+
+# macOS system files
+.DS_Store

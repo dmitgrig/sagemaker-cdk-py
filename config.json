@@ -1,0 +1,20 @@
+{
+  "aws_account": "605134434340",
+  "aws_region": "eu-central-1",
+  "deploy_new_vpc": true,
+  "domain_name": "swisscom-dev-domain",
+  "sagemaker_users": [
+    "swisscom-dev-user-a"
+  ],
+  "container_config": {
+    "framework": "huggingface",
+    "version": "4.26.0",
+    "image_scope": "inference",
+    "base_framework_version": "pytorch1.13.1",
+    "instance_type": "ml.m5.large",
+    "env_vars": {
+      "HF_MODEL_ID": "distilbert-base-uncased-finetuned-sst-2-english",
+      "HF_TASK": "text-classification"
+    }
+  }
+}
